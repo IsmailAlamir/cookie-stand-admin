@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+svg{
+  fill: '#ffffff';
+   width: '170%';
+    height: 200; 
+    transform: 'rotate(180deg)'
+}

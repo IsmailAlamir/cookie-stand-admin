@@ -1,12 +1,17 @@
 import React from 'react'
-import Form from './Form'
+import CreateForm from './CreateForm'
+import ReportTable from './ReportTable'
 
 export default function Main() {
   return (
     <div class="bg-cover w-full bg-center bg-no-repeat bg-[url('/assets/bgimage.png')]"  >
-      <div class="flex flex-row-reverse  ">
-        <Form />
 
+      <div class="flex flex-row-reverse  ">
+        <CreateForm />
+      </div>
+      
+      <div class="w-full">
+        <ReportTable />
       </div>
 
     </div>

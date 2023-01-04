@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export default function Form() {
+export default function CreateForm() {
 
     const [location, setLocation] = useState("");
     const [minCustomers, setMinCustomers] = useState("");
@@ -30,7 +30,7 @@ export default function Form() {
                 class=" ">
                 <div class="lex flex-wrap mb-6 border-b border-orange-400 ">
 
-                    <label class="block uppercase tracking-wide text-orange-100	font-bold text-xs font-bold mb-2"
+                    <label class="block uppercase tracking-wide text-orange-100	font-bold text-xs mb-2"
                     >Location</label>
 
                     <input
@@ -44,7 +44,7 @@ export default function Form() {
                     />
                 </div>
                 <div class="lex flex-wrap mb-6 border-b border-orange-400">
-                    <label class="block uppercase tracking-wide font-bold text-orange-100 text-xs font-bold mb-2"
+                    <label class="block uppercase tracking-wide font-bold text-orange-100 text-xs mb-2"
                     >
                         Minimum Customers per Hour
                     </label>
@@ -58,7 +58,7 @@ export default function Form() {
                     />
                 </div>
                 <div class="lex flex-wrap mb-6 border-b border-orange-400">
-                    <label class="block uppercase tracking-wide font-bold text-orange-100 text-xs font-bold mb-2"
+                    <label class="block uppercase tracking-wide text-orange-100 text-xs mb-2"
                     >
                         Maximum Customers per Hour
                     </label>
@@ -72,7 +72,7 @@ export default function Form() {
                     />
                 </div>
                 <div class="lex flex-wrap mb-6 border-b border-orange-400">
-                    <label class="block uppercase tracking-wide font-bold text-orange-100 text-xs font-bold mb-2"
+                    <label class="block uppercase tracking-wide text-orange-100 text-xs font-bold mb-2"
                     >
                         Average Cookies per Sale
                     </label>

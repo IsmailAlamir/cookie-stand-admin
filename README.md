@@ -7,7 +7,10 @@
 ### Setup
 ## Pull requests
  [PR 1](https://github.com/IsmailAlamir/cookie-stand-admin/pull/1)
+ 
  [PR 2](https://github.com/IsmailAlamir/cookie-stand-admin/pull/2)
+ 
+ [PR 3](https://github.com/IsmailAlamir/cookie-stand-admin/pull/3)
 
 #### get start:
 ```
